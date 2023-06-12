@@ -1,0 +1,18 @@
+﻿  colision.cpp
+  game.cpp
+  main.cpp
+c:\users\81808\source\repos\airbat\main.cpp(572): warning C4101: 'str1': ローカル変数は 1 度も使われていません。
+  player.cpp
+  ranking.cpp
+  result.cpp
+  resultScore.cpp
+c:\users\81808\source\repos\airbat\resultscore.cpp(57): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\81808\source\repos\airbat\resultscore.cpp(61): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\81808\source\repos\airbat\resultscore.cpp(65): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  score.cpp
+  timer.cpp
+  コードを生成中...
+  airbat.vcxproj -> C:\Users\81808\source\repos\airbat\Debug\airbat.exe
+  C:\Users\81808\source\repos\airbat\packages\openssl-vc141-static-x86_64.1.1.0\build\native\\lib\Win32\dynamic\libcrypto-1_1.dll
+  C:\Users\81808\source\repos\airbat\packages\openssl-vc141-static-x86_64.1.1.0\build\native\\lib\Win32\dynamic\libssl-1_1.dll
+  2 個のファイルをコピーしました

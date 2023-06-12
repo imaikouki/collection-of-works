@@ -1,0 +1,39 @@
+//=============================================================================
+//
+// サウンド処理 [sound.h]
+// Author : Imai
+//
+//=============================================================================
+#ifndef _SOUND_H_
+#define _SOUND_H_
+
+#include "main.h"
+
+// サウンドファイル
+typedef enum
+{
+	SOUND_LABEL_BGM000 = 0,		// BGM0
+	SOUND_LABEL_BGM001,			// BGM1
+	SOUND_LABEL_SE_SHOT,		// 弾発射音
+	SOUND_LABEL_SE_MISSILE,		// ミサイル発射音
+	SOUND_LABEL_SE_EXPLOSION,	// 爆発音
+	SOUND_LABEL_SE_COIN,		// 衝突音0
+	SOUND_LABEL_SE_TPS,			//TPSの時のBGM
+	SOUND_LABEL_SE_FPS,			//FPSの時のBGM
+	SOUND_LABEL_SE_Flare,		//フレア射出時のSE
+	SOUND_LABEL_MAX ,
+} SOUND_LABEL;
+
+//*****************************************************************************
+// プロトタイプ宣言
+//*****************************************************************************
+HRESULT InitSound(HWND hWnd);
+void UninitSound(void);
+HRESULT PlaySound(SOUND_LABEL label);
+HRESULT PlaySoundB(SOUND_LABEL label,int i);//iの数だけ繰り返す
+void StopSound(SOUND_LABEL label);
+void StopSound(void);
+void StopSoundB(SOUND_LABEL label);
+void StopSoundB(void);
+
+#endif

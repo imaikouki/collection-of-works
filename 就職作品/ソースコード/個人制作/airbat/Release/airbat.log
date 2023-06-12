@@ -1,0 +1,49 @@
+﻿  aircraftcarrier.cpp
+  bullet.cpp
+  bulletscore.cpp
+  camera.cpp
+c:\users\81808\source\repos\airbat\camera.cpp(105): warning C4101: 'fLength': ローカル変数は 1 度も使われていません。
+  colision.cpp
+  effect.cpp
+  enemy.cpp
+  enemybullet.cpp
+  explosion.cpp
+  fade.cpp
+  game.cpp
+  getScore.cpp
+  input.cpp
+  item.cpp
+  life.cpp
+  light.cpp
+  main.cpp
+  meshfield.cpp
+  meshsky.cpp
+  meshwall.cpp
+  コンパイル中...
+  missile.cpp
+  player.cpp
+  radar.cpp
+  radarenemy.cpp
+  ranking.cpp
+  result.cpp
+  resultScore.cpp
+c:\users\81808\source\repos\airbat\resultscore.cpp(57): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\81808\source\repos\airbat\resultscore.cpp(61): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\81808\source\repos\airbat\resultscore.cpp(65): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  rule.cpp
+  saveScore.cpp
+  score.cpp
+  shadow.cpp
+  sound.cpp
+  cockpit.cpp
+  timer.cpp
+  title.cpp
+  titleselection.cpp
+  tutorial.cpp
+  コード生成しています。
+  All 4901 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  airbat.vcxproj -> C:\Users\81808\source\repos\airbat\Release\airbat.exe
+  C:\Users\81808\source\repos\airbat\packages\openssl-vc141-static-x86_64.1.1.0\build\native\\lib\Win32\dynamic\libcrypto-1_1.dll
+  C:\Users\81808\source\repos\airbat\packages\openssl-vc141-static-x86_64.1.1.0\build\native\\lib\Win32\dynamic\libssl-1_1.dll
+  2 個のファイルをコピーしました
